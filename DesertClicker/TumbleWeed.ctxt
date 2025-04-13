@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TumbleWeed
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TumbleWeed\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ TumbleWeed\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ addScore()
+comment2.text=\r\n\ this\ method\ is\ used\ to\ add\ tumbleweeds\ to\ your\ total\ amount.\ whenever\ you\ click\ the\ tumbleweed,\ it\ would\ play\ the\ sound\ of\ you\ clicked\r\n\ and\ increase\ the\ amount\ of\ tumbleweeds\ you\ have\ by\ your\ multiplier.\ it\ also\ updates\ the\ scoreboard\ image\ so\ it\ displays\r\n\ \r\n
+numComments=3

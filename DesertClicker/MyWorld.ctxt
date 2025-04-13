@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\r\n\ The\ Constructer\ sets\ the\ world\ size,\ sets\ the\ background\ to\ titlescreen,\ and\ resets\ the\ tumbleweed\ amount\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ titleScreen()
+comment3.text=\ the\ title\ screen\ method.\ This\ checks\ to\ see\ if\ the\ titlescreen\ is\ still\ on\ the\ screen\ and\ if\ the\ user\ has\ clicked\ the\ A\ key.\r\n\ Once\ the\ user\ clicks\ A,\ it\ adds\ the\ necessary\ game\ elements,\ sets\ the\ background\ to\ the\ normal\ background,\ and\ starts\ playing\ the\ music.\r\n\ It\ also\ sets\ start\ to\ false\ which\ is\ used\ to\ make\ sure\ the\ person\ cant\ spam\ the\ A\ key\ to\ spawn\ more\ game\ elements\ and\ is\ used\ to\r\n\ start\ the\ music\ playing\ method.\r\n
+comment4.params=
+comment4.target=void\ music()
+comment4.text=\ This\ method\ increments\ the\ x\ value.\ after\ 1560\ ticks\ (about\ the\ length\ of\ the\ music)\ and\ if\ start\ is\ false\r\n\ (the\ person\ has\ left\ the\ title\ screen),\ the\ music\ plays\ and\ sets\ x\ back\ to\ 0.\r\n
+numComments=5

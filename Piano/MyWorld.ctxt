@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ The\ main\ world\ where\ the\ axe\ and\ pickaxe\ keys\ are\ displayed.\r\n\ Players\ can\ press\ keys\ to\ simulate\ a\ piano-like\ experience\ with\ chopping\ and\ mining\ sounds.\r\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\r\n\ Constructor\ for\ MyWorld.\r\n\ Initializes\ the\ world\ and\ adds\ the\ piano\ keys.\r\n
+comment2.params=
+comment2.target=void\ makeAxeKey()
+comment2.text=\r\n\ This\ method\ creates\ the\ axe\ keys.\ it\ uses\ a\ while\ loop\ to\ add\ 8\ of\ the\ keys.\ the\ parameters\ for\ the\ addObject\ are\r\n\ new\ Axe(parameters),\ x\ value,\ and\ y\ value.\ the\ x\ value\ changes\ based\ on\ the\ i\ variable,\ spacing\ them\ out\ evenly.\r\n\ the\ 4\ paremeters\ are\ the\ note,\ meaning\ the\ key\ you\ have\ to\ press\ to\ play\ the\ note,\ the\ sound\ the\ key\ makes,\ and\ the\ up\ and\ down\ images\ (to\ differentiate\ the\ axe\ and\ pickaxe\ keys)\r\n
+comment3.params=
+comment3.target=void\ makePickaxeKey()
+comment3.text=\r\n\ This\ method\ creates\ the\ pickaxe\ keys.\ it\ uses\ a\ for\ loop\ to\ add\ 5\ of\ the\ keys.\ the\ parameters\ for\ the\ addObject\ are\r\n\ new\ Axe(parameters),\ x\ value,\ and\ y\ value.\ the\ x\ value\ changes\ based\ on\ the\ i\ variable,\ spacing\ them\ out\ evenly.\r\n\ the\ 4\ paremeters\ are\ the\ note,\ meaning\ the\ key\ you\ have\ to\ press\ to\ play\ the\ note,\ the\ sound\ the\ key\ makes,\ and\ the\ up\ and\ down\ images\ (to\ differentiate\ the\ axe\ and\ pickaxe\ keys)\r\n\ some\ of\ the\ keys\ are\ skipped\ because\ on\ a\ normal\ piano\ theres\ spacing\ between\ a\ few\ of\ the\ black\ keys,\ hence\ the\ extra\ if\ statement.\r\n
+numComments=4

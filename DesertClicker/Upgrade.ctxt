@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Upgrade
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Upgrade\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=originalCost\ boost\ costMultiplier
+comment1.target=Upgrade(double,\ double,\ double)
+comment1.text=\r\n\ constructer\ for\ the\ upgrade.\ the\ 3\ parameters\ it\ takes\ is\ the\ original\ cost,\ the\ multiplier\ boost,\ and\ the\ increment\ of\ the\ cost.\r\n\ It\ also\ sets\ the\ image\ to\ null\ so\ it\ isnt\ shown\ on\ the\ main\ screen.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ upgradeInitiate()
+comment3.text=\r\n\ method\ to\ initiate\ the\ upgrade.\ when\ you\ press\ the\ upgrade\ and\ you\ have\ enough\ tumbleweeds,\ it\ would\ play\ the\ sound\ for\ buying\ the\ upgrade,\r\n\ and\ take\ away\ the\ amount\ it\ cost.\ it\ then\ would\ change\ the\ price\ to\ be\ the\ previous\ price\ multiplied\ by\ the\ multiplier\ for\ the\ cost.\r\n\ it\ also\ changes\ the\ tumbleweed\ multiplier\ to\ be\ multiplied\ by\ the\ boost\ of\ the\ button.\ it\ then\ runs\ the\ updateImage()\ method\ and\r\n\ changes\ the\ scoreboard\ to\ display\ the\ correct\ number\ of\ tumbleweeds\ after\ bought.\r\n
+comment4.params=
+comment4.target=void\ updateImage()
+comment4.text=\r\n\ this\ method\ is\ used\ to\ update\ the\ text\ displayed\ on\ the\ button.\ it\ sets\ the\ background\ to\ the\ button\ image,\ and\ adds\ 2\ texts\ that\ read\r\n\ the\ multiplier\ and\ the\ price.\ it\ then\ draws\ the\ image\ on\ to\ the\ background\ and\ sets\ the\ image\ to\ that\ background.\r\n
+numComments=5

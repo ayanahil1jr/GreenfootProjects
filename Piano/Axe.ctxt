@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Axe
+comment0.text=\r\n\ The\ Axe\ class\ represents\ a\ key\ in\ the\ piano\ that\ plays\ an\ axe\ chopping\ sound.\r\n\ When\ pressed,\ it\ changes\ its\ image\ and\ plays\ a\ sound.\r\n
+comment1.params=keyNote\ soundFile\ upImage\ downImage
+comment1.target=Axe(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ the\ Axe\ key.\r\n\ the\ parameter\ keyNote\ is\ used\ for\ keyboard\ key\ assigned\ to\ this\ axe.\r\n\ the\ parameter\ soundFile\ is\ used\ for\ sound\ file\ played\ when\ the\ key\ is\ pressed.\r\n\ the\ parameter\ upImage\ is\ used\ for\ image\ displayed\ when\ the\ key\ is\ not\ pressed.\r\n\ the\ parameter\ downImage\ is\ used\ for\ image\ displayed\ when\ the\ key\ is\ pressed.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ upDownMechanic()
+comment3.text=\r\n\ The\ first\ if\ statement\ checks\ if\ the\ key\ is\ pressed\ and\ if\ it\ isn't\ already\ being\ held\ down.\ it\ then\ plays\ the\ sound\ effect,\ sets\ the\ image\r\n\ to\ downimage,\ and\ sets\ isDown\ to\ true\ so\ the\ sound\ isnt\ spammed.\ the\ second\ if\ statement\ checks\ if\ the\ key\ is\ not\ being\ pressed\ and\ if\ isDown\ is\ true,\ meaning\ it\r\n\ got\ released.\ it\ sets\ the\ image\ back\ to\ normal\ and\ sets\ isDown\ to\ false.\r\n
+numComments=4

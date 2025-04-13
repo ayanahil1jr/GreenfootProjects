@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Button\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=buttonNumber
+comment1.target=Button(int)
+comment1.text=\ the\ constructer.\ This\ is\ to\ create\ the\ specific\ type\ of\ button\ by\ taking\ the\ button\ number.\r\n\ 1\ \=\ shop,\ 2\ \=\ rebirth\r\n\ This\ number\ is\ then\ used\ to\ set\ the\ image\ of\ the\ button\ and\ will\ be\ used\ to\ identify\ which\ button\ will\ do\ what.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ shopMechanic()
+comment3.text=\r\n\ This\ method\ is\ used\ for\ the\ shop\ button.\ it\ checks\ to\ see\ if\ it's\ clicked\ on\ an\ the\ buttonNumb\ is\ 1.\ It\ then\ checks\ if\ the\ shop\ is\ currently\ open\ (isShop)\ or\ closed\ (\!isShop).\r\n\ based\ on\ what\ it\ is,\ it\ would\ open\ the\ shop,\ set\ the\ background\ to\ the\ shop\ background,\ remove\ the\ tumbleweed,\ add\ the\ upgrade\ buttons,\ and\ set\ isShop\ to\ true.\ \r\n\ Or\ if\ it\ was\ open\ already,\ the\ button\ would\ change\ the\ background\ back\ to\ normal,\ remove\ the\ buttons,\ add\ back\ the\ tumbleweed,\ and\ set\ isShop\ to\ false.\r\n\ It\ would\ also\ change\ the\ color\ of\ the\ text\ to\ white\ while\ in\ the\ shop\ just\ to\ make\ it\ easier\ to\ read.\r\n
+comment4.params=
+comment4.target=void\ rebirthMechanic()
+comment4.text=\r\n\ The\ rebirthMechanic\ method\ checks\ to\ see\ if\ it\ was\ pressed\ and\ the\ buttonNumber\ of\ this\ button\ is\ 2\ (rebirth\ button\ number).\ \r\n\ it\ then\ checks\ to\ see\ if\ the\ shop\ was\ already\ open\ or\ if\ it\ was\ closed.\ if\ it\ was\ closed,\ it\ would\ remove\ the\ tumbleweed,\ set\ the\ score\ to\ white\ (to\r\n\ make\ it\ easier\ to\ read),\ and\ change\ the\ background\ to\ rebirth\ menu\ background.\ It\ would\ laos\ add\ text\ explaining\ what\ rebirthing\ does\r\n\ and\ adds\ the\ rebirth\ button\ so\ you\ can\ rebirth.\ in\ the\ top\ right\ corner,\ it\ also\ adds\ the\ golden\ tumbleweed\ amount\ showing\ how\r\n\ many\ you\ have,\ which\ affects\ the\ click\ gain.\r\n
+numComments=5

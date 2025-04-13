@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ScoreBoard
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ScoreBoard\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=ScoreBoard()
+comment1.text=\r\n\ scoreboard\ constructer.\ this\ clears\ the\ image\ (so\ its\ a\ transparent\ background)\ and\ adds\ a\ text\ in\ its\ place\ that\ says\ \r\n"TumbleWeed\:\ "\ followed\ by\ the\ amount\ of\ your\ tumbleweeds.\r\n
+comment2.params=
+comment2.target=void\ updateImage()
+comment2.text=\r\n\ this\ method\ is\ used\ to\ update\ the\ image\ whenever\ the\ tumbleweed\ is\ clicked.\ it\ sets\ the\ font\ to\ arial\ with\ a\ size\r\n\ of\ 12,\ and\ makes\ the\ height\ between\ the\ 2\ lines\ 20.\ it\ then\ sets\ the\ image\ to\ the\ text\ we\ have\ set\ up.\r\n
+numComments=3
